@@ -13,7 +13,7 @@ describe 'iterm2::stable' do
       :ensure   => 'present',
       :flavor   => 'zip',
       :provider => 'compressed_app',
-      :source   => "http://www.iterm2.com/downloads/stable/iTerm2-#{version}.zip"
+      :source   => "https://iterm2.com/downloads/stable/iTerm2-#{version}.zip"
     })
   end
 end
